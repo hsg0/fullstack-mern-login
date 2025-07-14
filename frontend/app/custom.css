@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: purple;
+  }
+  
+  .container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    background-color: white;
+    width: 100%;
+    max-width: 420px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    box-sizing: border-box;
+  }
+  
+  .title {
+    text-align: center;
+    font-size: 2.5rem; /* larger */
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-size: 1.25rem; /* slightly larger */
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: #800080; /* slightly deeper purple for contrast */
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group label {
+    margin-bottom: 0.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 0.65rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  input:focus {
+    border-color: purple;
+  }
+  
+  .btn {
+    padding: 0.75rem;
+    font-size: 1rem;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .btn:hover {
+    background-color: rebeccapurple;
+  }
+  
+  .footer-text {
+    text-align: center;
+    margin-top: 1.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .link {
+    text-decoration: underline;
+    cursor: pointer;
+  }
