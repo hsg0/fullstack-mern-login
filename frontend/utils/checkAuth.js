@@ -10,7 +10,7 @@ export default function useAuthCheck() {
   useEffect(() => {
     const verify = async () => {
       try {
-        const res = await axios.get('http://192.168.0.106:5001/api/protected', {
+        const res = await axios.get('http://localhost:5001/api/protected', {
           withCredentials: true, // must send cookies
         });
 
