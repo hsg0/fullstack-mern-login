@@ -19,7 +19,7 @@ const LoginPage = () => {
     }
 
     try {
-      const response = await axios.post('http://192.168.0.106:5001/api/login', {
+      const response = await axios.post('http://localhost:5001/api/login', {
         email,
         password
       }, {
